@@ -1,6 +1,9 @@
+                                            Warlock Games Studios & GearTaex Games Presents:
+                                                         Project Grapple VR
+
 Gemaakt door: Dirk ten Have en Guido van der Kort
-Warlock Games Studios & GearTaex Games Presents
-Project Grapple VR
+
+
 
 Dirk en Guido gaan de Oculus Quest 2 voor als controller, wij gebruiken Unity om de game te maken.
 
