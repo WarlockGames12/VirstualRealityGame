@@ -3,7 +3,7 @@
 
 Gemaakt door: Dirk ten Have en Guido van der Kort
 
-![WhatsApp Image 2022-02-17 at 11 14 21 jpeg](https://user-images.githubusercontent.com/47526227/154455205-e952a146-8766-450f-9d97-6cad3825b2f2.png)
+                ![WhatsApp Image 2022-02-17 at 11 14 21 jpeg](https://user-images.githubusercontent.com/47526227/154455205-e952a146-8766-450f-9d97-6cad3825b2f2.png)
 
 Dirk en Guido gaan de Oculus Quest 2 voor als controller, wij gebruiken Unity om de game te maken.
 
