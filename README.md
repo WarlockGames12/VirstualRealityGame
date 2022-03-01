@@ -1,20 +1,24 @@
                                             Warlock Games Studios & GearTaex Games Presents:
-                                                         Project Grapple VR
+                                                         Project Runner
 
 Gemaakt door: Dirk ten Have en Guido van der Kort
 
- ![WhatsApp Image 2022-02-17 at 11 14 21 jpeg](https://user-images.githubusercontent.com/47526227/154455205-e952a146-8766-450f-9d97-6cad3825b2f2.png)
 
-Dirk en Guido gaan de Oculus Quest 2 voor als controller, wij gebruiken Unity om de game te maken.
 
-Gameplay: De Player heeft 2 grapple guns om zich te laten bewegen, de game heeft maar een level, dus om het steeds anders te laten maken, maakt Dirk de grapple points random, 
-zodat de speler meer vrije keuze ervoor heeft.
+Dirk en Guido gaan de microbit gebruiken om een controller te maken voor de Endless Runner.
 
-Development Tijd: Als Dirk en Guido er hard aan gaan werken zouden ze het best binnen 3-4 weken het af kunnen krijgen.
+Gameplay: Je rent in de game en als je op een van de knopjes drukt, spring je, als je op de andere knopje drukt ga je sliden. Als de player dood gaat dan 
+krijg je de score voor hoelang je hebt gerent.
 
-Should Have: VR Controller doet het, grapple hooks komen uit de pistol als je schiet.
-Nice to Have: Gameplay leuk maken (Doen wij als laatste), grapple points maken.
+Development Tijd: Ik denk dat wij de game best snel kunnen maken en dat wij de controller misschien binnen 2 weken in de game kunnen maken.
+
+Should Have: De controller moet werkend zijn.
+Nice to Have: Gameplay leuk maken (Doen wij als laatste)
 
 Taken: 
-Guido van der Kort: VR controls
-Dirk ten Have: Github maken, Gameplay
+Guido van der Kort: 
+Dirk ten Have: Github maken
+
+Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kosten van een VR bril dachten wij om wat anders te doen.
+ ![WhatsApp Image 2022-02-17 at 11 14 21 jpeg](https://user-images.githubusercontent.com/47526227/154455205-e952a146-8766-450f-9d97-6cad3825b2f2.png)
+ 
