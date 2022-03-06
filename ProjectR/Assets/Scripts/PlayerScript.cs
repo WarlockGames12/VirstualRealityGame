@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    [Header("Player")]
+    public GameObject Player;
 
     // Update is called once per frame
     void Update()
