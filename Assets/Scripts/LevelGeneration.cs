@@ -4,47 +4,39 @@ using UnityEngine;
 
 public class LevelGeneration : MonoBehaviour
 {
-    private const float PLAYER_DISTANCE_SPAWN_LEVEL_PART = 200f;
+    public GameObject Spikes;
+    public Transform Spawner;
 
-    [SerializeField] private Transform levelStart;
-    [SerializeField] private List<Transform> levelPartList;
+    public float MinSpeed;
+    public float MaxSpeed;
+    public float currentSpeed;
 
-    [Header("Player Itself")]
-    public GameObject Player;
-
-    private Vector3 LastEndPosition;
-    
+    public float SpeedMultiplier;
 
     private void Awake()
     {
-        LastEndPosition = levelStart.Find("EndPosition").position;
+        currentSpeed = MinSpeed;
+        generateSpike();
+    }
 
-        int startingSpawnLevelParts = 5;
-        for(int i = 0; i < startingSpawnLevelParts; i++)
-        {
-            SpawnLevelPart();
-        }
+    public void GenerateNextSpikeWithGap()
+    {
+        float randomWait = Random.Range(1.2f, 3.3f);
+        Invoke("generateSpike", randomWait);
+    }
+
+    public void generateSpike()
+    {
+        GameObject Spike1 = Instantiate(Spikes, Spawner.transform.position, Quaternion.identity);
+
+        Spike1.GetComponent<SpikeScript>().spikeGenerator = this;
     }
 
     private void Update()
     {
-        if(Vector3.Distance(Player.transform.position, LastEndPosition) < PLAYER_DISTANCE_SPAWN_LEVEL_PART)
+        if(currentSpeed < MaxSpeed)
         {
-            //Spawn another level part
-            SpawnLevelPart();
+            currentSpeed += SpeedMultiplier;
         }
-    }
-
-    private void SpawnLevelPart()
-    {
-        Transform chosenLevelPart = levelPartList[(Random.Range(0, levelPartList.Count))];
-        Transform lastLevelPartTransform = SpawnLevelParting(chosenLevelPart,LastEndPosition);
-        LastEndPosition = lastLevelPartTransform.Find("EndPosition").position;
-    }
-
-    private Transform SpawnLevelParting(Transform levelPart, Vector3 SpawnPosition)
-    {
-        Transform levelPartTransform = Instantiate(levelPart, SpawnPosition, Quaternion.identity);
-        return levelPartTransform;
     }
 }
