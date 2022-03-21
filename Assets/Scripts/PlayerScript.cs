@@ -10,6 +10,8 @@ public class PlayerScript : MonoBehaviour
     public Rigidbody2D rb;
     //private float speed = 3.5f;
     private float jump = 350;
+    private Vector2 movement;
+    public float movementSpeed = 10;
 
 
     [Header("Player Dies")]
@@ -38,6 +40,9 @@ public class PlayerScript : MonoBehaviour
         {
             return;
         }
+
+        movement = new Vector2(Input.acceleration.x, Input.acceleration.y) * movementSpeed;
+        rb.AddForce(movement);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
