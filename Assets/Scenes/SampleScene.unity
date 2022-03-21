@@ -239,7 +239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: 139}
+  m_AnchoredPosition: {x: 26, y: 103.57}
   m_SizeDelta: {x: 635.15, y: 142.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259454483
@@ -264,7 +264,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 78
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1150,6 +1150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1213981476}
   rb: {fileID: 1213981480}
+  movementSpeed: 10
   GameOver: {fileID: 1767408573}
   Player: {fileID: 1213981476}
   InstantiatedGameObject: {fileID: -8622477447397999605, guid: 339db25da21089e49b41de209223b5ac, type: 3}
@@ -1340,7 +1341,7 @@ RectTransform:
   m_GameObject: {fileID: 1372661067}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.7077501, y: 1.5861715, z: 1}
+  m_LocalScale: {x: 0.9179157, y: 0.9119058, z: 1}
   m_Children:
   - {fileID: 1029157904}
   m_Father: {fileID: 1767408577}
@@ -1348,7 +1349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 52.999985}
+  m_AnchoredPosition: {x: 10.000001, y: 52.999985}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372661069
@@ -1473,7 +1474,7 @@ RectTransform:
   m_GameObject: {fileID: 1501944160}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.7077501, y: 1.5861715, z: 1}
+  m_LocalScale: {x: 0.9179157, y: 0.9119058, z: 1}
   m_Children:
   - {fileID: 761190068}
   m_Father: {fileID: 1767408577}
@@ -1481,7 +1482,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -122}
+  m_AnchoredPosition: {x: 10, y: -122}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1501944162
@@ -1709,7 +1710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
