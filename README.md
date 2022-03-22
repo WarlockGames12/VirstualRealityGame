@@ -38,3 +38,10 @@ Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kost
 Guido heeft de stem controller gemaakt en alles werkt daar van, zelf ben ik nog om een eindeloze spike generator aan het maken, maar zelf heb ik nog wat problemen
 omdat ik best lang niet heb geprogrammeerd waardoor ik niet meer al te goed weet hoe ik moet programmeren, dus ik ga even wat meer proberen om alles weer terug te 
 krijgen terwijl ik ook probeer om de level generator af te maken.
+
+22-03-2022:
+De Microbit controller doet het niet en het gaat ook niet lukken, wij hebben nog 2 weken om hier aan te werken, ik begin al te stressen, maar van Richard
+kon ik een andere controller gebruiken, maar alleen als je iets er over schrijft en over iets heb geleerd, ik heb geleerd dat Micro:Bit niet suitable is voor Unity.
+Dus daarom dacht ik om een controller te maken met mijn telefoon, het werkt ook nog, maar Ed vind dat ik MOET met de microbit werken, want dat heeft een uitdaging,
+maar wij hebben 2 weken nog om dit af te maken, hoe denkt hij dat wij dit kunnen afmaken binnen 2 weken. Daarom ga ik gewoon verder met de telefoon controller, want
+ik wil tenminste iets af hebben.
