@@ -33,12 +33,13 @@ Telefoon Controls
 
 ## Eerdere Plannen:
 Had je nog andere plannen?: 
-Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kosten van een VR bril dachten wij om wat anders te doen.
+Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kosten van een VR bril dachten wij om wat anders te doen. Wij probeerde ook iets te doen 
+met de micro:Bit, maar omdat het geen connectie kon leggen met Arduino en Unity, dachten wij om wat anders te doen.
 
  ![WhatsApp Image 2022-02-17 at 11 14 21 jpeg](https://user-images.githubusercontent.com/47526227/154455205-e952a146-8766-450f-9d97-6cad3825b2f2.png)
  
 ## Plannen:
-Ons plan nu is om een endless runner te maken met een telefoon controller en een stem controller.
+Ons plan nu is om een endless runner te maken met een telefoon controller en een stem controller. Ik en Guido hebben er over gepraat wie wat gaat doen, Guido gaat de stem controller doen, ik doe de telefoon controller, dat moet natuurlijk niet al te moeilijk zijn om te doen.
 
 ## Documentatie:
 
