@@ -5,7 +5,7 @@ Gemaakt door: Dirk ten Have en Guido van der Kort
 
 
 
-Dirk en Guido gaan de microbit & stemgeactiveerde commando's gebruiken om een controller te maken voor de Endless Runner.
+Dirk en Guido gaan de telefoon accelerator controller & stemgeactiveerde commando's gebruiken om een controller te maken voor de Endless Runner.
 
 Gameplay: 
 Je rent in de game en als je op een van de knopjes drukt, spring je, als je op de andere knopje drukt ga je sliden. Als de player dood gaat dan 
