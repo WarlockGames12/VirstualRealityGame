@@ -14,6 +14,7 @@ krijg je de score voor hoelang je hebt gerent.
 Development Tijd: 
 Ik denk dat wij de game best snel kunnen maken en dat wij de controller misschien binnen 2 weken in de game kunnen maken.
 
+## SCRUM METHOD:
 Should Have: 
 De controller moet werkend zijn.
 
