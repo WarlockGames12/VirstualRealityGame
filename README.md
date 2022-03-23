@@ -21,7 +21,7 @@ De controller moet werkend zijn.
 Nice to Have: 
 Gameplay leuk maken (Doen wij als laatste)
 
-Taken: 
+## Taken: 
 
 Guido van der Kort: 
 StemControl voor game maken
