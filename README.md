@@ -32,6 +32,7 @@ Microbit maken
 
 Had je nog andere plannen?: 
 Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kosten van een VR bril dachten wij om wat anders te doen.
+
  ![WhatsApp Image 2022-02-17 at 11 14 21 jpeg](https://user-images.githubusercontent.com/47526227/154455205-e952a146-8766-450f-9d97-6cad3825b2f2.png)
  
 09-03-2022:
