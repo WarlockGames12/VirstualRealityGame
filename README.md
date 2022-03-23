@@ -41,7 +41,8 @@ omdat ik best lang niet heb geprogrammeerd waardoor ik niet meer al te goed weet
 krijgen terwijl ik ook probeer om de level generator af te maken.
 
 16-03-2022:
-Ik was vaak aan het debuggen met de Micro:Bit, nog steeds geen geluk om het werkend te laten krijgen, misschien kan ik even om hulp vragen.
+Ik was vaak aan het debuggen met de Micro:Bit, nog steeds geen geluk om het werkend te laten krijgen, misschien kan ik even om hulp vragen. Guido is nog vaak 
+aan het debuggen met de Stem controller zodat het ook beter werkt.
 
 22-03-2022:
 De Microbit controller doet het niet en het gaat ook niet lukken, wij hebben nog 2 weken om hier aan te werken, ik begin al te stressen, maar van Richard
