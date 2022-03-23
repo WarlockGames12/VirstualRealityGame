@@ -46,4 +46,5 @@ kon ik een andere controller gebruiken, maar alleen als je iets er over schrijft
 Dus daarom dacht ik om een controller te maken met mijn telefoon, het werkt ook nog.
 
 23-03-2022:
-Ik was verder gegaan met de Telefoon controller. Alles werkt, dus ik kan wel even terug kijken waarom de Micro:Bit niet werkte.
+Ik was verder gegaan met de Telefoon controller, maar als ik probeer te schreeuwen via de telefoon zodat de speler kan jumpen, dan gaat de speler niet jumpen.
+Dus daar ben ik even mee aan het debuggen voor waarom het ook niet werkt.
