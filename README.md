@@ -40,6 +40,9 @@ Guido heeft de stem controller gemaakt en alles werkt daar van, zelf ben ik nog 
 omdat ik best lang niet heb geprogrammeerd waardoor ik niet meer al te goed weet hoe ik moet programmeren, dus ik ga even wat meer proberen om alles weer terug te 
 krijgen terwijl ik ook probeer om de level generator af te maken.
 
+16-03-2022:
+Ik was vaak aan het debuggen met de Micro:Bit, nog steeds geen geluk om het werkend te laten krijgen, misschien kan ik even om hulp vragen.
+
 22-03-2022:
 De Microbit controller doet het niet en het gaat ook niet lukken, wij hebben nog 2 weken om hier aan te werken, ik begin al te stressen, maar van Richard
 kon ik een andere controller gebruiken, maar alleen als je iets er over schrijft en over iets heb geleerd, ik heb geleerd dat Micro:Bit niet suitable is voor Unity.
