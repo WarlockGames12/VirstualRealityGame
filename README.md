@@ -31,11 +31,15 @@ Github maken
 gameplay maken 
 Telefoon Controls
 
+## Eerdere Plannen:
 Had je nog andere plannen?: 
 Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kosten van een VR bril dachten wij om wat anders te doen.
 
  ![WhatsApp Image 2022-02-17 at 11 14 21 jpeg](https://user-images.githubusercontent.com/47526227/154455205-e952a146-8766-450f-9d97-6cad3825b2f2.png)
  
+## Plannen:
+Ons plan nu is om een endless runner te maken met een telefoon controller en een stem controller.
+
 09-03-2022:
 Guido heeft de stem controller gemaakt en alles werkt daar van, zelf ben ik nog om een eindeloze spike generator aan het maken, maar zelf heb ik nog wat problemen
 omdat ik best lang niet heb geprogrammeerd waardoor ik niet meer al te goed weet hoe ik moet programmeren, dus ik ga even wat meer proberen om alles weer terug te 
