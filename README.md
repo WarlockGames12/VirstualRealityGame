@@ -28,7 +28,7 @@ StemControl voor game maken
 Dirk ten Have: 
 Github maken 
 gameplay maken 
-Microbit maken
+Telefoon Controls
 
 Had je nog andere plannen?: 
 Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kosten van een VR bril dachten wij om wat anders te doen.
@@ -43,6 +43,7 @@ krijgen terwijl ik ook probeer om de level generator af te maken.
 22-03-2022:
 De Microbit controller doet het niet en het gaat ook niet lukken, wij hebben nog 2 weken om hier aan te werken, ik begin al te stressen, maar van Richard
 kon ik een andere controller gebruiken, maar alleen als je iets er over schrijft en over iets heb geleerd, ik heb geleerd dat Micro:Bit niet suitable is voor Unity.
-Dus daarom dacht ik om een controller te maken met mijn telefoon, het werkt ook nog, maar Ed vind dat ik MOET met de microbit werken, want dat heeft een uitdaging,
-maar wij hebben 2 weken nog om dit af te maken, hoe denkt hij dat wij dit kunnen afmaken binnen 2 weken. Daarom ga ik gewoon verder met de telefoon controller, want
-ik wil tenminste iets af hebben.
+Dus daarom dacht ik om een controller te maken met mijn telefoon, het werkt ook nog.
+
+23-03-2022:
+Ik was verder gegaan met de Telefoon controller. Alles werkt, dus ik kan wel even terug kijken waarom de Micro:Bit niet werkte.
