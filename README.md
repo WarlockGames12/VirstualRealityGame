@@ -40,6 +40,8 @@ Het eerste plan wat wij in gedachte hadden was een VR game, maar vanwege de kost
 ## Plannen:
 Ons plan nu is om een endless runner te maken met een telefoon controller en een stem controller.
 
+## Documentatie:
+
 09-03-2022:
 Guido heeft de stem controller gemaakt en alles werkt daar van, zelf ben ik nog om een eindeloze spike generator aan het maken, maar zelf heb ik nog wat problemen
 omdat ik best lang niet heb geprogrammeerd waardoor ik niet meer al te goed weet hoe ik moet programmeren, dus ik ga even wat meer proberen om alles weer terug te 
