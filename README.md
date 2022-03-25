@@ -14,11 +14,21 @@ krijg je de score voor hoelang je hebt gerent.
 Development Tijd: 
 Ik denk dat wij de game best snel kunnen maken en dat wij de controller misschien binnen 2 weken in de game kunnen maken.
 
-## SCRUM METHOD:
-Should Have: 
-De controller moet werkend zijn.
+Wat Software gaan jullie gebruiken:
+Unity & Github
 
-Nice to Have: 
+Plan:
+Ons plan is dat ik en Guido gewoon rustig aan de game gaan werken en de controllers gaan verdelen. Guido gaat de stem controller doen terwijl ik de telefoon
+controls doet.
+
+## SCRUM METHOD:
+Would Have:
+De controllers moet werkend zijn.
+
+Should Have: 
+/
+
+Could Have: 
 Gameplay leuk maken (Doen wij als laatste)
 
 ## Taken: 
