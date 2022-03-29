@@ -16,7 +16,9 @@ public class LevelGeneration : MonoBehaviour
     private void Awake()
     {
         currentSpeed = MinSpeed;
+
         generateSpike();
+        GenerateNextSpikeWithGap();
     }
 
     public void GenerateNextSpikeWithGap()

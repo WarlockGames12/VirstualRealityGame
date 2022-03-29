@@ -7,7 +7,10 @@ public class SpikeScript : MonoBehaviour
 
     public LevelGeneration spikeGenerator;
 
-   
+    private void Start()
+    {
+        spikeGenerator = FindObjectOfType<LevelGeneration>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -29,6 +32,6 @@ public class SpikeScript : MonoBehaviour
 
     public void Destroyed()
     {
-        Destroy(this.gameObject);
+        Destroy(this.gameObject,1f);
     }
 }

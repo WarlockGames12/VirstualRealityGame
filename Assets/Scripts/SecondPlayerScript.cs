@@ -1,22 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class PlayerScript : MonoBehaviour
+public class SecondPlayerScript : MonoBehaviour
 {
-
     [Header("Player")]
     public GameObject player;
     public Rigidbody2D rb;
     //private float speed = 3.5f;
     private float jump = 350;
     float dirX;
+    float dirY;
+    Vector3 New;
     float moveSpeed = 20f;
 
 
     [Header("Player Dies")]
     public GameObject GameOver;
-    public GameObject Player;
     public SpikeScript InstantiatedGameObject;
 
 
@@ -30,18 +29,15 @@ public class PlayerScript : MonoBehaviour
     {
         //rb.velocity = new Vector2(speed += 0.0000015f, 0);
         dirX = Input.acceleration.x * moveSpeed;
-        //transform.position = new Vector2(Mathf.Clamp(transform.position.x, -10.2f, 7.5f), transform.position.y);
+        dirY = Input.acceleration.y;
 
-        //if there is no player available, do nothing
-        if (player == null)
-        {
-            return;
-        }
         //if there is no rigidbody, do nothing...
-        if (rb == null)
+        if (rb == null && player == null)
         {
             return;
         }
+
+        transform.Translate(Input.acceleration.x, -Input.acceleration.y, 0);
     }
 
     private void FixedUpdate()
@@ -51,7 +47,7 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+
         if (collision.gameObject.CompareTag("Spike"))
         {
             InstantiatedGameObject.Destroyed();
@@ -64,6 +60,4 @@ public class PlayerScript : MonoBehaviour
     {
         rb.AddForce(transform.up * jump);
     }
-
-    
 }

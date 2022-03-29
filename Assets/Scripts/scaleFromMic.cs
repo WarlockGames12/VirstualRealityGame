@@ -10,12 +10,6 @@ public class scaleFromMic : MonoBehaviour
     public float loudnessSensibility = 100;
     public float threshold = 0.1f;
 
-    void Start()
-    {
-        
-    }
-
-
     void Update()
     {
         float loudness = detector.getLoudnessFromMic() * loudnessSensibility;
@@ -27,10 +21,7 @@ public class scaleFromMic : MonoBehaviour
 
         if(loudness >= threshold)
         {
-            GetComponent<PlayerScript>().Jump();
+            GetComponent<SecondPlayerScript>().Jump();
         }
-
-        
-
     }
 }
