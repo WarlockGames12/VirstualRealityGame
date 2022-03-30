@@ -39,6 +39,7 @@ StemControl voor game maken
 Dirk ten Have: 
 Github maken 
 gameplay maken 
+
 Telefoon Controls
 
 ## Eerdere Plannen:
