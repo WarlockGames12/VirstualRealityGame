@@ -86,4 +86,5 @@ Ik was verder gegaan met de Telefoon controller, maar als ik probeer te schreeuw
 Dus daar ben ik even mee aan het debuggen voor waarom het ook niet werkt.
 
 30-03-2022:
-De controller is bijna af, ik hoef alleen nog maar te testen en dan gaat Guido alles bij elkaar mergen als het goed gaat.
+De controller is bijna af, er zijn nog problemen met de shake mechanic, maar ik ga door, ik had een versie voor als je schreeuwt dat je gaat springen,
+blijkbaar moest het alleen voor de PC versie, dus ik ging verder met de normale mechanics via de telefoon. 
