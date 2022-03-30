@@ -53,6 +53,9 @@ Ons plan nu is om een endless runner te maken met een telefoon controller en een
 
 ## Results:
 
+Bij de eerste versie had ik een kopie waar als je schreeuwt dat de speler gaat springen. Was best leuk om er aan te werken, maar later kreeg ik te horen dat 
+de voice controller alleen in de PC mag komen van een Leraar. Dus ik werkte even verder om een andere resultaat te krijgen.
+
 https://user-images.githubusercontent.com/47526227/160805954-7d598782-fdb1-47ae-b51b-5004bfeaf59d.mp4
 
 
