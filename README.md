@@ -51,7 +51,7 @@ met de micro:Bit, maar omdat het geen connectie kon leggen met Arduino en Unity,
 ## Plannen:
 Ons plan nu is om een endless runner te maken met een telefoon controller en een stem controller. Ik en Guido hebben er over gepraat wie wat gaat doen, Guido gaat de stem controller doen, ik doe de telefoon controller, dat moet natuurlijk niet al te moeilijk zijn om te doen.
 
-##Results
+## Results:
 
 https://user-images.githubusercontent.com/47526227/160805954-7d598782-fdb1-47ae-b51b-5004bfeaf59d.mp4
 
