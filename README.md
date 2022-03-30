@@ -58,6 +58,11 @@ de voice controller alleen in de PC mag komen van een Leraar. Dus ik werkte even
 
 https://user-images.githubusercontent.com/47526227/160805954-7d598782-fdb1-47ae-b51b-5004bfeaf59d.mp4
 
+Daarna had ik een resultaat waar je de character kan laten bewegen met de telefoon, maar ik ga meer voor dat je gaat shaken als je gaat springen...
+
+https://user-images.githubusercontent.com/47526227/160828495-fc8a77f1-5623-49be-9ade-5b42651b9d0f.mp4
+
+
 
 ## Documentatie:
 
