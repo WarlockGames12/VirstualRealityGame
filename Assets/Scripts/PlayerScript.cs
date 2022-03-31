@@ -8,10 +8,10 @@ public class PlayerScript : MonoBehaviour
     [Header("Player")]
     public GameObject player;
     public Rigidbody2D rb;
-    //private float speed = 3.5f;
+    private float speed = 3.5f;
     private float jump = 350;
-    float dirX;
-    float moveSpeed = 20f;
+    //float dirX;
+    //float moveSpeed = 20f;
 
 
     [Header("Player Dies")]
@@ -27,11 +27,18 @@ public class PlayerScript : MonoBehaviour
     }
 
     void Update()
-    {
-        //rb.velocity = new Vector2(speed += 0.0000015f, 0);
-        dirX = Input.acceleration.x * moveSpeed;
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -7.5f, 7.5f), transform.position.y);
+    { 
+        rb.velocity = new Vector2(speed += 0.0000015f, 0);
+        
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(speed, 0);
+        }
 
+        //dirX = Input.acceleration.x * moveSpeed;
+
+        //transform.position = new Vector2(Mathf.Clamp(transform.position.x, -7.5f, 7.5f), transform.position.y);
+        
         //if there is no player available, do nothing
         if (player == null)
         {
@@ -44,10 +51,10 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    /*private void FixedUpdate()
     {
         rb.velocity = new Vector2(dirX, 0f);
-    }
+    }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
