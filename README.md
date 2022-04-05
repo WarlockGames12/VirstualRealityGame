@@ -91,4 +91,4 @@ blijkbaar moest het alleen voor de PC versie, dus ik ging verder met de normale 
 
 05-04-2022:
 Ik had gister een nieuwe telefoon gehaald zodat ik tenminste de game op de telefoon kan neer zetten, ik moest 80 euro er voor betalen. 80 euro wat ik nooit
-terug zou winnen, maar om tenminste een goed punt te krijgen is het wel de moeite waard.
+terug zou winnen, maar om tenminste een goed punt te krijgen is het wel de moeite waard. Ik ga de github nog even mergen zodat Guido het helemaal af kan werken.
