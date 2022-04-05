@@ -21,7 +21,7 @@ public class scaleFromMic : MonoBehaviour
 
         if(loudness >= threshold)
         {
-            GetComponent<SecondPlayerScript>().Jump();
+            GetComponent<PlayerScript>().Jump();
         }
     }
 }

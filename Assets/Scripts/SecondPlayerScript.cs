@@ -7,11 +7,14 @@ public class SecondPlayerScript : MonoBehaviour
     public GameObject player;
     public Rigidbody2D rb;
     //private float speed = 3.5f;
-    private float jump = 350;
+    private float jump = 10;
+    private bool isJumping = false;
     float dirX;
     float dirY;
-    Vector3 New;
-    float moveSpeed = 20f;
+    float moveSpeed = 5f;
+
+    float lowPassFilterFactor;
+    Vector3 acceleratorDir;
 
 
     [Header("Player Dies")]
@@ -23,13 +26,18 @@ public class SecondPlayerScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         GameOver.SetActive(false);
+
+        acceleratorDir = Input.acceleration;
     }
 
     void Update()
     {
         //rb.velocity = new Vector2(speed += 0.0000015f, 0);
-        dirX = Input.acceleration.x * moveSpeed;
-        dirY = Input.acceleration.y;
+        dirX = -Input.acceleration.x * moveSpeed;
+        dirY = Input.acceleration.z;
+
+        acceleratorDir.x = -Input.acceleration.z;
+        acceleratorDir.z = Input.acceleration.x * moveSpeed;
 
         //if there is no rigidbody, do nothing...
         if (rb == null && player == null)
@@ -37,17 +45,32 @@ public class SecondPlayerScript : MonoBehaviour
             return;
         }
 
-        transform.Translate(Input.acceleration.x, -Input.acceleration.y, 0);
-    }
+        transform.Translate(Input.acceleration.x, 0, 0);
+        
 
-    private void FixedUpdate()
-    {
-        rb.velocity = new Vector2(dirX, 0f);
+        Vector3 acceleration = Input.acceleration;
+        acceleratorDir = Vector3.Lerp(acceleratorDir, acceleration, lowPassFilterFactor);
+        Vector3 deltaAcceleration = acceleration - acceleratorDir;
+
+        Debug.Log(deltaAcceleration.y);
+        Debug.Log(acceleration);
+        Debug.Log(acceleratorDir);
+
+
+
+        if(acceleratorDir.sqrMagnitude > 1 && !isJumping)
+        {
+            Jump();
+            if (rb.velocity.y == 0.2f)
+            {
+                isJumping = true;
+            }
+            Debug.Log("Shake event detected at time " + Time.time);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {
-
+    { 
         if (collision.gameObject.CompareTag("Spike"))
         {
             InstantiatedGameObject.Destroyed();
@@ -58,6 +81,14 @@ public class SecondPlayerScript : MonoBehaviour
 
     public void Jump()
     {
-        rb.AddForce(transform.up * jump);
+        rb.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
+        }
     }
 }
