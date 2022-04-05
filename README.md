@@ -87,4 +87,8 @@ Dus daar ben ik even mee aan het debuggen voor waarom het ook niet werkt.
 
 30-03-2022:
 De controller is bijna af, er zijn nog problemen met de shake mechanic, maar ik ga door, ik had een versie voor als je schreeuwt dat je gaat springen,
-blijkbaar moest het alleen voor de PC versie, dus ik ging verder met de normale mechanics via de telefoon. 
+blijkbaar moest het alleen voor de PC versie, dus ik ging verder met de normale mechanics via de telefoon.
+
+05-04-2022:
+Ik had gister een nieuwe telefoon gehaald zodat ik tenminste de game op de telefoon kan neer zetten, ik moest 80 euro er voor betalen. 80 euro wat ik nooit
+terug zou winnen, maar om tenminste een goed punt te krijgen is het wel de moeite waard.
