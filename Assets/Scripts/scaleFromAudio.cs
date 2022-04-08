@@ -13,12 +13,6 @@ public class scaleFromAudio : MonoBehaviour
     public float loudnessSensibility = 100;
     public float threshold = 0.1f;
 
-    void Start()
-    {
-        
-    }
-
-
     void Update()
     {
         float loudness = detector.LoudnessAudio(source.timeSamples, source.clip) * loudnessSensibility;

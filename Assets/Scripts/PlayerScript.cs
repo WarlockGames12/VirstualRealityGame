@@ -11,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     //private float speed = 3.5f;
     private float jump = 350;
     float dirX;
+    float dirY;
     float moveSpeed = 20f;
 
 
@@ -46,12 +47,11 @@ public class PlayerScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(dirX, 0f);
+        rb.velocity = new Vector2(dirX, rb.velocity.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
         if (collision.gameObject.CompareTag("Spike"))
         {
             InstantiatedGameObject.Destroyed();

@@ -17,13 +17,13 @@ public class Parallax : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         float temp = (cam.transform.position.x * (1 - parallaxEffect));
         float Distance = (cam.transform.position.x * parallaxEffect);
 
         transform.position = new Vector3(startPosition + Distance, transform.position.y, transform.position.z);
-        if (temp > startPosition * length) startPosition += length;
+        if (temp > startPosition + length) startPosition += length;
         else if (temp < startPosition - length) startPosition -= length;
     }
 }
