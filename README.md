@@ -92,3 +92,7 @@ blijkbaar moest het alleen voor de PC versie, dus ik ging verder met de normale 
 05-04-2022:
 Ik had gister een nieuwe telefoon gehaald zodat ik tenminste de game op de telefoon kan neer zetten, ik moest 80 euro er voor betalen. 80 euro wat ik nooit
 terug zou winnen, maar om tenminste een goed punt te krijgen is het wel de moeite waard. Ik ga de github nog even mergen zodat Guido het helemaal af kan werken.
+
+10-04-2022:
+Ok, laatste dag voordat alles klaar moet zijn. Tot nu toe heb ik weer de stem mechanic er in gekregen, maar de microphone van de telefoon doet het niet in de game, 
+maar wel als het gekoppeld is met de Unity Remote. Dus ik weet niet of dat mag maar laten wij maar het toch uitproberen om de game te laten presenteren met de stem mechanic. Misschien zet ik die shake mechanic weer terug na de presentatie omdat het meer een betere gameplay loop heeft. Maar ik moet ook opletten dat de spawning spikes wat meer beter wordt, want af en toe spawnt het er te veel waardoor de game helemaal gaat crashen, dus ik kijk daar nog even naar.
