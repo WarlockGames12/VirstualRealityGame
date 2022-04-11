@@ -75,6 +75,8 @@ https://user-images.githubusercontent.com/47526227/162706631-975c04af-0116-42ae-
 
 Tester 3: 
 
+https://user-images.githubusercontent.com/47526227/162708451-0d400797-7615-43bb-b828-eaa84258319e.mp4
+
 ## Documentatie:
 
 09-03-2022:
