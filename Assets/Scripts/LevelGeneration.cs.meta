@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af7777765f37b1c4885197f87fdd5717
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Points: {fileID: 3288821838448448803, guid: 2ada6fae950b1d744a831db2e172ffe4, type: 3}
+  - Spikes: {fileID: 3377697021549840375, guid: 339db25da21089e49b41de209223b5ac, type: 3}
+  - Spawner: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
