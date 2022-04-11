@@ -63,6 +63,14 @@ Daarna had ik een resultaat waar je de character kan laten bewegen met de telefo
 https://user-images.githubusercontent.com/47526227/160828495-fc8a77f1-5623-49be-9ade-5b42651b9d0f.mp4
 
 
+## User Stories:
+
+Tester 1: 
+
+https://user-images.githubusercontent.com/47526227/162705273-42193982-d8a5-4925-b3c4-e64d721231e6.mp4
+
+Tester 2:
+
 
 ## Documentatie:
 
